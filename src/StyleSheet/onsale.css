@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home_list-wrap, .home_panel-wrap, .home_panelList-wrap{
+    overflow-y: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home_panelList-wrap{
+    display: flex;
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home_panel-wrap{
+    flex-basis: 250px;
+    padding: 1rem;
+}
+
+.home_list-wrap{
+    flex: 1;
+    padding: 1rem;
+}
+
+/* /chrome, safari, opera/ */
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    font-family: 'Montserrat', sans-serif;
+}
