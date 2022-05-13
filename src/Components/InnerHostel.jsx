@@ -6,6 +6,7 @@ import "../StyleSheet/HouseListed.css";
 import { Link } from "react-router-dom";
 import rentIMG from "../images/rent.jpeg";
 import StarRating from "./StarRating";
+import "../StyleSheet/innerhostel.css"
 const InnerHostel = () => {
  
   return (
@@ -14,12 +15,12 @@ const InnerHostel = () => {
      <nav className="mb-3 pt-md-3" aria-label="breadcrumb">
       <ol className="breadcrumb">
          <li className="breadcrumb-item"><a href="real-estate-home-v1.html">Home</a></li>
-        <li className="breadcrumb-item"><a href="real-estate-catalog-rent.html">Property for rent</a></li> 
-        <li className="breadcrumb-item active" aria-current="page">Pine Apartments</li>
+        <li className="breadcrumb-item"><a href="real-estate-catalog-rent.html">Hostel</a></li> 
+        <li className="breadcrumb-item active" aria-current="page">Pine Hostel</li>
       </ol>
     </nav>
 
-    <h1 className="h2 mb-2">Pine Apartments</h1>
+    <h1 className="h2 mb-2">Pine Hostel</h1>
     <p className="mb-2 pb-1 fs-lg">28 Jackson Ave Long Island City, NY 67234</p>
 
     <div className="d-flex justify-content-between align-items-center">
@@ -53,7 +54,7 @@ const InnerHostel = () => {
        <div className="row g-2 g-md-3 gallery min-width: 30rem;" data-thumbnails="true" >
         <div className="col-12">
           <div className="row g-2 g-md-3">
-            <div className="col"><a className="gallery-item rounded-1 rounded-md-2" href="https://finder.createx.studio/img/real-estate/catalog/04.jpg" data-sub-html="<h6 className=&quot;fs-sm text-light&quot;>Bedroom</h6>" data-lg-id="dc5a8a61-eeb1-4368-8293-84bf28b94d19"><img src={rentIMG} alt="Gallery thumbnail"/></a></div>
+            <div className="col"><a className="gallery-item rounded-1 rounded-md-2"href="https://finder.createx.studio/img/real-estate/catalog/04.jpg" data-sub-html="<h6 className=&quot;fs-sm text-light&quot;>Bedroom</h6>" data-lg-id="dc5a8a61-eeb1-4368-8293-84bf28b94d19"><img src={rentIMG} alt="Gallery thumbnail"/></a></div>
             <div className="col"><a className="gallery-item rounded-1 rounded-md-2" href="https://finder.createx.studio/img/real-estate/catalog/05.jpg" data-sub-html="<h6 className=&quot;fs-sm text-light&quot;>Kitchen</h6>" data-lg-id="ff93ccd9-f7c0-4fa1-916c-7fd47ea3885b"><img src={rentIMG} alt="Gallery thumbnail"/></a></div>
             <div className="col"><a className="gallery-item rounded-1 rounded-md-2" href="https://finder.createx.studio/img/real-estate/single/01.jpg" data-sub-html="<h6 className=&quot;fs-sm text-light&quot;>Living room</h6>" data-lg-id="ef9c8a2f-4058-499e-b88b-5a960d8603b7"><img src={rentIMG} alt="Gallery thumbnail"/></a></div>
             <div className="col"><a className="gallery-item rounded-1 rounded-md-2" href="https://finder.createx.studio/img/real-estate/single/02.jpg" data-sub-html="<h6 className=&quot;fs-sm text-light&quot;>Bathroom</h6>" data-lg-id="ed55d92d-a85c-4359-97fe-64c30c72179c"><img src={rentIMG} alt="Gallery thumbnail"/></a></div>
@@ -80,10 +81,10 @@ const InnerHostel = () => {
       <div className="mb-4 pb-md-3">
         <h3 className="h4">Property Details</h3>
         <ul className="list-unstyled mb-0">
-          <li><b>Type: </b>apartment</li>
-          <li><b>Apartment area: </b>56 sq.m</li>
+          <li><b>Type: </b>hostel</li>
+          <li><b>Hostel area: </b>56 sq.m</li>
           <li><b>Built: </b>2015</li>
-          <li><b>Bedrooms: </b>4</li>
+          <li><b>Beds in a room: </b>4</li>
           <li><b>Bathrooms: </b>2</li>
           <li><b>Parking places: </b>2</li>
          </ul>

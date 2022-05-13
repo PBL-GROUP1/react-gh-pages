@@ -3,6 +3,7 @@
 .MainContent__container {
   display: flex;
   flex-direction: column;
+  background-color: #eae7dc;
 }
 
 .TopContent__container {

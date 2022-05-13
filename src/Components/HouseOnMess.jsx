@@ -12,6 +12,7 @@ import mess6 from "../images/mess6.jpeg"
 import rentIMG from "../images/mess1.jpeg"
 import StarRating from "./StarRating";
 import NavBar from "./NavBar/NavBar";
+import "../StyleSheet/HouseOnMess.css"
 const HouseOnMess = () => {
   
   return (
@@ -29,12 +30,12 @@ const HouseOnMess = () => {
     {/* <p className="mb-2 pb-1 fs-lg">28 Jackson Ave Long Island City, NY 67234</p> */} 
 
     <div className="d-flex justify-content-between align-items-center">
-      <ul className="d-flex mb-4 list-unstyled">
+      {/* <ul className="d-flex mb-4 list-unstyled">
         <li className="me-3 pe-3 border-end"><b className="me-1">4</b><div className="fi-bed mt-n1 lead align-middle text-muted"></div></li>
         <li className="me-3 pe-3 border-end"><b className="me-1">2</b><div className="fi-bath mt-n1 lead align-middle text-muted"></div></li>
         <li className="me-3 pe-3 border-end"><b className="me-1">2</b><div className="fi-car mt-n1 lead align-middle text-muted"></div></li>
         <li><b>56 </b>sq.m</li>
-      </ul>
+      </ul> */}
       <div className="text-nowrap">
         <button className="btn btn-icon btn-light-primary btn-xs shadow-sm rounded-circle ms-2 mb-2" type="button" data-bs-toggle="tooltip" title="" data-bs-original-title="Add to Wishlist" aria-label="Add to Wishlist"><div className="fi-heart"></div></button>
         <div className="dropdown d-inline-block" data-bs-toggle="tooltip" title="" data-bs-original-title="Share">

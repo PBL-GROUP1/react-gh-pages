@@ -34,7 +34,7 @@ const StarRating = () => {
 
   return (
     <div style={styles.container}>
-      <h2> React Ratings </h2>
+      <h2> Leave a rating </h2>
       <div style={styles.stars}>
         {stars.map((_, index) => {
           return (

@@ -1,0 +1,13 @@
+.breadcrumb li a{
+    color: black;
+    text-decoration: none;
+}
+
+.breadcrumb li a:hover{
+    color: #254e58;
+    font-weight: 900;
+}
+
+.col a{
+    border-radius: 20px;
+}

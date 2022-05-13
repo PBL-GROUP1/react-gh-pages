@@ -28,7 +28,7 @@ const FilterPanel = ({
 
 
       {/*Amenities */}
-      <div className = "input-group">
+      {/* <div className = "input-group">
       <p className ='label'>Amenities</p>
       {amenities.map((amenities) => (
       <CheckboxProton
@@ -36,7 +36,7 @@ const FilterPanel = ({
       amenities = {amenities}
       changeChecked = {changeChecked} />
       ))}
-      </div>
+      </div> */}
 
 
       {/*Distance from college */}

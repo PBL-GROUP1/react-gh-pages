@@ -28,10 +28,11 @@ const DesktopNavBar = () => {
         <Link className="links" to="/contact-us">
           <h4 className="link">Contact Us</h4>
         </Link>
+        <div className="login-link">
         <a className="links" href="https://home-3f3d6.web.app/login">;
-
-          <h4 className="link" style={{backgroundColor:"#e98074", borderRadius:"30px"}}>Login</h4>
+          <h4 className="link" style={{backgroundColor:"#d8c3a5", borderRadius:"30px", padding:"10px",  marginTop: "3px"}}>Login</h4>
         </a>
+        </div>
       </div>
     </div>
         {/* <Auto/> */}

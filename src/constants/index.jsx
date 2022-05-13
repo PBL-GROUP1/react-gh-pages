@@ -62,7 +62,7 @@ export const dataList = [
       },
       {
         id: 3,
-        title: 'Shraddha hostel',
+        title: 'Pine hostel',
         distfromcollege: '120m',
         category: 'Girls',
         amenities: 'TV, Laundry',
